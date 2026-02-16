@@ -13,10 +13,6 @@ use Spryker\Zed\Kernel\Communication\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-/**
- * @method \Spryker\Zed\CartNoteMerchantSalesOrderGui\Communication\CartNoteMerchantSalesOrderGuiCommunicationFactory getFactory()
- * @method \Spryker\Zed\CartNoteMerchantSalesOrderGui\Business\CartNoteMerchantSalesOrderGuiFacadeInterface getFacade()
- */
 class MerchantSalesOrderController extends AbstractController
 {
     /**
