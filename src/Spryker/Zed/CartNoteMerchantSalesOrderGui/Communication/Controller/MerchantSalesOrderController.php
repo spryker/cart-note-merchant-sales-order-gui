@@ -15,11 +15,6 @@ use Symfony\Component\HttpFoundation\Response;
 
 class MerchantSalesOrderController extends AbstractController
 {
-    /**
-     * @param \Symfony\Component\HttpFoundation\Request $request
-     *
-     * @return \Symfony\Component\HttpFoundation\Response
-     */
     public function listAction(Request $request): Response
     {
         $merchantOrderTransfer = $this->getMerchantOrderTransfer($request);
